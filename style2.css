@@ -1,0 +1,266 @@
+.all{
+    background: url("/images/basil-leaves.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form{
+    width:600px;
+    height:600px;
+    background:#ede8e8;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+    margin-left: 100px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    padding:20px 30px;
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:relative;
+}
+
+h2{
+    margin:10px 0;
+    padding-bottom:10px;
+    width:220px;
+    color:#78788c;
+    border-bottom:3px solid #78788c;
+}
+
+input
+{
+width:100%;
+padding:10px;
+box-sizing:border-box;
+background:none;
+outline:none;
+resize:none;
+border:0;
+font-family:'Montserrat',sans-serif;
+transition:all .3s;
+border-bottom:2px solid #bebed2;
+}
+
+input:focus{
+    border-bottom:2px solid #78788c;
+}
+
+p:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:20px;
+    color:#5a5a5a;
+}
+
+button{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    border:2px solid #78788c;
+    background:0;
+    color:#5a5a6e;
+    cursor:pointer;
+    transition:all .3s;
+}
+
+button:hover{
+    background:#78788c;
+    color:#fff;
+}
+
+.icons{
+    position:absolute;
+    bottom:-15px;
+    right:-20px;
+    background:#50505a;
+    color:#fff;
+    width:370px;
+    padding:16px 4px 16px 0;
+    border-radius:6px;
+    font-size:13px;
+    box-shadow:10px 10px 40px -14px #000;
+}
+
+span{
+    margin:0 5px 0 15px;
+}
+
+input::placeholder{
+    font-size: 20px;
+}
+
+.contact{
+    font-family:'Montserrat',sans-serif;
+    font-size: larger;
+    margin-top: 70px;
+    margin-left: 50px;
+    color: #5a5a6e;
+    font-weight: bold;
+}
+
+  hr{
+    width: 730px;
+}
+
+.list a{
+    text-decoration: none;
+   color: white;
+}
+
+.dropdown-toggle{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+ a:hover{
+   background-color: white;
+   padding: 5px;
+
+}
+
+.categories{
+    background-color: #78788c;
+    width: 280px;
+    height:1500px;
+}
+
+.active{
+    background: #252b02;
+    width: 320px;
+    margin-top: 100px;
+}
+
+.brand{
+    background: #212201c6;
+    width: 320px;
+    margin-top: 100px;
+}
+
+ul{
+    list-style-type:none;
+}
+
+.item{
+   color: white;
+    font-family: 'Balsamiq Sans', cursive;
+    background: #be370a;
+   margin-left: 100px;
+   margin-right: 100px;
+    font-size: 40px;   
+    
+}
+
+.prod .buy-btn{
+  background:#ca196c;
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 0.3s all;
+  border: #000;
+}
+
+.prod{
+    cursor: pointer;
+    border: 3px solid #d80567;
+    background-color: white;
+}
+
+.prod:hover .buy-btn{
+ transform: translateY(0px);
+ opacity: 1;
+ }
+
+ .prod:hover{
+     transform: scale(1.1);
+     box-shadow: 3px 6px 32px 2px rgba(0, 0, 0, 0.72);
+ }
+
+ .produ{
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .pg {
+     margin-top: 0px;
+     width: 50px;
+     margin-bottom: 5px;
+ }
+
+ .pagination a{
+    font-weight: bold;
+ }
+
+ .pagination{
+     margin-left: 750px;
+ }
+
+ .page-item a{
+    border: 1px solid gray;
+ }
+
+ .pg1{
+     margin-top: 0px;
+     width: 100px;
+     text-align: center;
+ }
+
+ .inp{
+     width: 50px;
+     height: 40px;
+     padding-left: 10px;
+     font-size: 16px;
+     margin-right: 10px;
+     border-bottom: 0px;
+     border: 1px solid black;
+     font-size: 20px;
+    }
+
+    .b-button{
+        color: black;
+        opacity: 1;
+        transition: 0.3s all;
+        font-weight: bold;
+        margin-right: 440px;
+    }
+
+    .pr{
+        border-bottom: 0px;
+    }
+
+    h3{
+        color: green;
+        font-weight: bold;
+    }
+
+    .pr{
+        color: green;
+    }
+
+    h4{
+        color: brown;
+        font-weight: bold;
+    }
+
+    .sp{
+        color: brown;
+    }
+
+    .it{
+        background: url(/images/pngtree-food-western-food-simple-poster-background.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+     }
+
+    .img-fluid{
+        margin-top: 220px;
+        margin-bottom: 200px;
+        margin-left: 100px;
+    }
+
+ 
+ 
